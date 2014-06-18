@@ -1,0 +1,27 @@
+{
+  "name": "study-grid-system",
+  "version": "0.1.0",
+  "description": "studying sass",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "Study - Grid System"
+  },
+  "keywords": [
+    "grid",
+    "system",
+    "sass"
+  ],
+  "author": "Sergio Costa",
+  "license": "ISC",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-compass": "^0.8.0",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-notify": "^0.3.0",
+    "matchdep": "^0.3.0"
+  }
+}

@@ -1,0 +1,41 @@
+// studying sass
+
+// clearfix for float elements
+.clearfix {
+	display: inline;
+	height: 1%;
+	display: block;
+
+	&:after {     
+		content: ".";     
+		display: block;     
+		height: 0;     
+		clear: both;     
+		visibility: hidden;
+	} 
+} 
+
+// grid system actually starts here
+
+// variables 
+$col-size: 8.33333333%;
+
+// global grid rules
+.container {
+	width: 1000px;
+}
+
+.col {
+	display: table;
+	padding: 0px 20px;
+	float: left;
+}
+
+@function col-size($n) {
+ 	@return $n * $col-size;
+}
+
+body {
+	width: col-size(2);
+}
+
