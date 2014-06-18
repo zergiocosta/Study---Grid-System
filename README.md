@@ -2,6 +2,8 @@
 
 Recently, I decided to study some tools that I use daily and nothing better than "DO IT YOURSELF" =p
 
+ps. i just started to create this. it's too far away from the "complete" status and isn't responsive, yet!
+
 Make sure you have installed
 * node.js
 * gruntjs
