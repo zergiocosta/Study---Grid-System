@@ -2,6 +2,12 @@
 
 Recently, I decided to study some tools that I use daily and nothing better than "DO IT YOURSELF" =p
 
+Make sure you have installed
+* node.js
+* gruntjs
+* sass
+* compass
+
 
 ## To specify the column size of your element, just follow the exemple bellow
 
