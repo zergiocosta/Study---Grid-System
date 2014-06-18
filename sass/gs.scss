@@ -34,8 +34,3 @@ $col-size: 8.33333333%;
 @function col-size($n) {
  	@return $n * $col-size;
 }
-
-body {
-	width: col-size(2);
-}
-
