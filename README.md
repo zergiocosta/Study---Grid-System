@@ -28,7 +28,7 @@ aside { width: col-size-g16(n) }
 Where 'n' is your column size from 1 to 12.
 
 
-and if you want, apply the class "col" to your element. So they will get the following rules and will behave the way I like to use.
+And if you want, apply the class "col" to your element. So it will get the following rules and will behave the way I like to use.
 
 ```css
 .col {
