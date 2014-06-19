@@ -10,7 +10,8 @@ Make sure you have installed:
 * sass
 * compass
 
-* If you want to try it, you just need the content in the gs.scss file, into the "sass" folder.
+
+-> If you want to try it, you just need the content in the gs.scss file, into the "sass" folder.
 
 
 ## To specify the column size of your element, just follow the exemple bellow
