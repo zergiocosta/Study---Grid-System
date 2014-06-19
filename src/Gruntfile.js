@@ -54,7 +54,7 @@ module.exports = function(grunt) {
                     sassDir: '../sass',
                     cssDir: '../css',
                     environment: "development",
-                    outputStyle: "compact",
+                    outputStyle: "expanded",
                     force: true,
                     config: "config.rb"
                 }

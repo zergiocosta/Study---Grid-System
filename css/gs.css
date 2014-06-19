@@ -1,10 +1,32 @@
 /* line 4, ../sass/gs.scss */
-.clearfix { display: inline; height: 1%; display: block; }
+.clearfix {
+  display: inline;
+  height: 1%;
+  display: block;
+}
 /* line 9, ../sass/gs.scss */
-.clearfix:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; }
+.clearfix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
 
-/* line 24, ../sass/gs.scss */
-.container { width: 1000px; }
+/* line 25, ../sass/gs.scss */
+.container {
+  width: 1000px;
+}
 
-/* line 28, ../sass/gs.scss */
-.col { display: table; padding: 0px 20px; float: left; }
+@media only screen and (max-width: 1000px) {
+  /* line 29, ../sass/gs.scss */
+  .container {
+    width: 100%;
+  }
+}
+/* line 34, ../sass/gs.scss */
+.col {
+  display: table;
+  padding: 0px 20px;
+  float: left;
+}

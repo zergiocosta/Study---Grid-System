@@ -17,12 +17,18 @@
 
 // grid system actually starts here
 
-// variables 
-$col-size: 8.33333333%;
+// column size 
+$col-size-g12: 8.33333333%;
+$col-size-g16: 6.25%;
 
 // global grid rules
 .container {
 	width: 1000px;
+}
+@media only screen and (max-width: 1000px) {
+	.container {
+		width: 100%;
+	}
 }
 
 .col {
@@ -31,6 +37,16 @@ $col-size: 8.33333333%;
 	float: left;
 }
 
-@function col-size($n) {
- 	@return $n * $col-size;
+@function col-size-g12($n) {
+ 	@return $n * $col-size-g12;
 }
+
+@function col-size-g16($n) {
+	@return $n * $col-size-g16;
+}
+
+
+
+
+
+

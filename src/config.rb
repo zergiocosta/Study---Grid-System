@@ -5,8 +5,8 @@ http_path = "../"
 css_dir = "../css"
 sass_dir = "../sass"
 
-environment = :production
-output_style = :compact
+environment = :development
+output_style = :expanded
 
 # sass_options = { :debug_info => true }
 
