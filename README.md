@@ -24,6 +24,11 @@ aside { width: col-size-g12(n) }
 
 aside { width: col-size-g16(n) }
 /* If you want to use the 16-column grid */
+
+/* or */
+
+aside { width: col-size-g10(n) }
+/* If you want to use the 10-column grid */
 ```
 Where 'n' is your column size from 1 to 12.
 
@@ -37,3 +42,5 @@ And if you want, apply the class "col" to your element. So it will get the follo
 	float: left;
 }
 ```
+
+-> You can make your own responsive rules, with media queries.
